@@ -2,7 +2,7 @@
  * @Author: klindeng
  * @Date: 2021-03-01 15:43:44
  * @LastEditors: klindeng
- * @LastEditTime: 2021-03-01 15:46:52
+ * @LastEditTime: 2021-03-01 16:22:26
  * @Description: 
  * @FilePath: \vue3_study\docs\.vuepress\config.js
  */
@@ -10,21 +10,14 @@ module.exports = {
   base: '/kylink_ts_study/', /* 基础虚拟路径 */
   dest: 'docs/dist', /* 打包文件基础路径, 在命令所在目录下 */
   title: 'Vue3+TS 快速上手', // 标题
-  description: '尚硅谷前端研究院', // 标题下的描述
+  description: 'kylink前端文档', // 标题下的描述
   themeConfig: { // 主题配置
     logo: '/images/logo.png',
     nav: [
-      { text: '官网', link: 'http://www.atguigu.com' },
-      { text: '谷粒学院', link: 'http://www.gulixueyuan.com/' },
-      { 
-        text: '学习路线', 
-        items: [
-          { text: '前端', link: 'http://www.atguigu.com/web/' },
-          { text: 'Java', link: 'http://www.atguigu.com/kecheng.shtml' },
-          { text: '大数据', link: 'http://www.atguigu.com/bigdata/' }
-        ] 
-      },
-      { text: '全套视频资料', link: 'http://www.gulixueyuan.com/' },
+      { text: 'Vue3.0', link: 'https://v3.cn.vuejs.org/' },
+      { text: 'TypeScript', link: 'https://www.typescriptlang.org/' },
+      { text: 'Vue资讯', link: 'https://github.com/itemsets/vue2' },
+      { text: 'ECMAScript 6', link: 'https://es6.ruanyifeng.com/' },
     ],
     sidebar: [ // 左侧导航
       '00_课程介绍',
